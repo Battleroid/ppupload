@@ -13,3 +13,5 @@ Short, basic file upload in PHP, with timed uploads. Made specifically because I
 ## note
 
 I'm not great at PHP, and I wouldn't trust this as a public service. That's exactly why I've restricted uploading only to my LAN subnet. If you see some other major pitfalls, please, let me know or submit a pull request.
+
+If I were planning to make this public facing, I would create a separate user for this, chroot it, and definitely disable PHP's ability to execute items in the inis, as well as restrict that user from using the PHP command line utility.
